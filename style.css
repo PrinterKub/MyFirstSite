@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 30%;
+    height: 70%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box{
+    margin-top: 20px;
+    width: 90%;
+    height: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
